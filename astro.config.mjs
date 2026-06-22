@@ -10,6 +10,7 @@ export default defineConfig({
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeKatex],
   },
+    site: 'https://alvarorc19.github.io',
   vite: {
     plugins: [tailwindcss()]
   }
