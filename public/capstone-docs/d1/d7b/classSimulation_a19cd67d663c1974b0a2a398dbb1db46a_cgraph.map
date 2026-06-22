@@ -1,0 +1,13 @@
+<map id="Simulation::do_metropolis_recording_sweep" name="Simulation::do_metropolis_recording_sweep">
+<area shape="rect" id="Node000001" title="Executes a full sweep of Metropolis steps while recording observables." alt="" coords="5,52,198,96"/>
+<area shape="rect" id="Node000002" href="$d1/d7b/classSimulation.html#a21b9b76c12211130f9c67505ca495b58" title="executes a single Metropolis step" alt="" coords="246,29,473,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,60,230,56,230,61,199,65"/>
+<area shape="rect" id="Node000005" href="$d1/d7b/classSimulation.html#ae4709e8581587a44fa4c5d0328ad0cbb" title="Updates the observables stored in the Observables object." alt="" coords="287,81,432,126"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="199,82,272,91,271,96,198,87"/>
+<area shape="rect" id="Node000003" href="$df/d24/namespacerng.html#a3b67035fc07dfb2111ac23cfc6e5e53d" title=" " alt="" coords="758,29,853,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="473,40,743,40,743,46,473,46"/>
+<area shape="rect" id="Node000004" href="$df/d24/namespacerng.html#aa9264fa7d60e84904e26d92569917699" title=" " alt="" coords="521,55,710,82"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="474,52,506,55,505,60,473,57"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="773,30,767,20,772,11,785,5,806,3,828,5,840,12,838,16,826,10,805,8,786,10,775,15,773,20,777,27"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="710,53,742,49,743,54,711,58"/>
+</map>

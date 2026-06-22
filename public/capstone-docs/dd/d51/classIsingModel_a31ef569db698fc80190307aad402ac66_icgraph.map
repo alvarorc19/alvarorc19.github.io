@@ -1,0 +1,5 @@
+<map id="IsingModel::change_spin_randomly" name="IsingModel::change_spin_randomly">
+<area shape="rect" id="Node000001" title="Given a site lattice index, it randomly changes the spin at that site." alt="" coords="211,5,358,50"/>
+<area shape="rect" id="Node000002" href="$dd/d51/classIsingModel.html#a4f3a7377a25b033fbe15f9978e04fdcd" title=" " alt="" coords="5,5,163,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,30,163,30,163,25,195,25"/>
+</map>

@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Layout>
+    <article class="prose prose-slate dark:prose-invert lg:prose-lg mx-auto mt-8 w-full max-w-3xl">
+        <div class="mb-8 border-b border-[var(--border-color)] pb-4">
+            <h1 class="text-3xl font-bold mb-2">{entry.data.title}</h1>
+            <div class="flex gap-4 text-sm opacity-70">
+                {entry.data.pubDate && <time datetime={entry.data.pubDate.toISOString()}>
+                    {entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                </time>}
+                <div class="flex gap-2">
+                    {entry.data.tags.map(tag => (
+                        <span>#{tag}</span>
+                    ))}
+                </div>
+            </div>
+        </div>
+
+        <div class="latex-content text-justify">
+            <Content />
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-[var(--border-color)]">
+            <a href="/#projects" class="text-[var(--accent-color)] hover:underline">← Back to Projects</a>
+        </div>
+    </article>
+</Layout>
+
+<style is:global>
+    /* Styling for KaTeX if needed, though standard CSS import should handle most */
+    .latex-content h2 {
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 0.5rem;
+        margin-top: 2rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    .latex-content p {
+        margin-bottom: 1rem;
+        line-height: 1.7;
+    }
+</style>

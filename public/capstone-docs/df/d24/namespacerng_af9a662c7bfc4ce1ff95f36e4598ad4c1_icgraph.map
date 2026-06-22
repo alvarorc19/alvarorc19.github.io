@@ -1,0 +1,7 @@
+<map id="rng::random_int_number" name="rng::random_int_number">
+<area shape="rect" id="Node000001" title=" " alt="" coords="410,14,591,42"/>
+<area shape="rect" id="Node000002" href="$d3/d9a/classPottsModel.html#aa58960e2beabfd65f92c3f6d8730b47d" title="Given a site lattice index, it randomly changes the spin at that site." alt="" coords="213,5,362,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="394,30,362,30,362,25,394,25"/>
+<area shape="rect" id="Node000003" href="$d3/d9a/classPottsModel.html#a23dc29c92d4648bf7269ee7f36a33f2b" title=" " alt="" coords="5,5,165,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="197,30,165,30,165,25,197,25"/>
+</map>

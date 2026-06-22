@@ -1,0 +1,21 @@
+<map id="PottsModel::compute_energy_diff_flip" name="PottsModel::compute_energy_diff_flip">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,132,165,177"/>
+<area shape="rect" id="Node000002" href="$d3/d9a/classPottsModel.html#aa58960e2beabfd65f92c3f6d8730b47d" title="Given a site lattice index, it randomly changes the spin at that site." alt="" coords="224,12,374,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,129,211,73,234,62,236,66,214,78,122,134"/>
+<area shape="rect" id="Node000003" href="$df/d24/namespacerng.html#a3b67035fc07dfb2111ac23cfc6e5e53d" title=" " alt="" coords="676,55,771,83"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="161,129,212,117,336,98,460,84,660,69,661,74,461,89,337,103,213,122,163,134"/>
+<area shape="rect" id="Node000005" href="$d3/d9a/classPottsModel.html#affaa2237fe4c8f3d1204ea97cbf9a6ee" title=" " alt="" coords="218,132,380,177"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="165,152,203,152,203,157,165,157"/>
+<area shape="rect" id="Node000006" href="$d3/d9a/classPottsModel.html#a401f81cb451bf85dee07d3535ba7e6af" title="Computes the spin term due to neighbouring spins for a given index." alt="" coords="213,201,385,246"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="157,175,214,193,212,198,155,180"/>
+<area shape="rect" id="Node000008" href="$df/d24/namespacerng.html#aef8e730ac100ee05dd77713f9d79a08a" title=" " alt="" coords="448,266,613,293"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="107,175,153,218,182,239,214,256,268,272,325,282,381,286,433,285,433,291,381,291,324,287,267,278,212,261,179,244,149,222,104,179"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="373,16,430,8,494,3,562,5,629,16,662,28,691,44,688,49,660,33,628,21,562,10,494,9,430,13,374,21"/>
+<area shape="rect" id="Node000004" href="$df/d24/namespacerng.html#af9a662c7bfc4ce1ff95f36e4598ad4c1" title=" " alt="" coords="440,30,621,57"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="374,35,425,37,425,42,374,40"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="690,56,685,46,689,37,702,31,724,28,746,31,759,37,756,42,745,36,723,34,704,36,693,40,690,46,695,53"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="622,53,662,58,661,63,621,58"/>
+<area shape="rect" id="Node000007" href="$d3/d9a/classPottsModel.html#af8bc7575d64d56bfaeefd19ef4d96a6c" title=" " alt="" coords="433,210,628,237"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="385,221,417,221,417,226,385,226"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="599,263,627,247,658,212,683,172,701,131,712,97,717,98,706,133,688,174,663,215,630,251,602,267"/>
+</map>

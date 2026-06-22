@@ -1,0 +1,7 @@
+<map id="XYModel::compute_total_energy" name="XYModel::compute_total_energy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,40,186,85"/>
+<area shape="rect" id="Node000002" href="$dc/d7e/classXYModel.html#acd4410837aa7e91e865efe4fc58a2fee" title=" " alt="" coords="234,5,411,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,46,218,41,219,46,186,51"/>
+<area shape="rect" id="Node000003" href="$dc/d7e/classXYModel.html#a7f04a1b5e3d71e496394dbb9ae1b2078" title="Computes the spin term due to neighbouring spins for a given index." alt="" coords="234,75,411,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,73,219,78,218,84,186,79"/>
+</map>

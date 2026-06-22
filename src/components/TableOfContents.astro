@@ -1,0 +1,73 @@
+---
+interface Props {
+    headings?: { depth: number; slug: string; text: string }[];
+}
+
+const { headings = [] } = Astro.props;
+---
+
+{
+    headings.length > 0 && (
+        <nav
+            id="toc-nav"
+            class="hidden lg:block fixed left-[calc(50%-38rem)] top-24 w-48 text-right border-r-2 border-[var(--border-color)] pr-4 transition-all duration-300 ease-out"
+        >
+            <div class="text-sm">
+                <h3 class="font-bold mb-3 text-[var(--accent-color)]">
+                    Contents
+                </h3>
+                <ul class="space-y-2">
+                    {headings
+                        .filter((heading) => heading.depth <= 2)
+                        .map((heading) => (
+                            <li>
+                                <a
+                                    href={`#${heading.slug}`}
+                                    class="hover:text-[var(--accent-color)] transition-all duration-200 block opacity-70 hover:opacity-100"
+                                >
+                                    {heading.text}
+                                </a>
+                            </li>
+                        ))}
+                </ul>
+            </div>
+        </nav>
+    )
+}
+
+<script>
+    // Add bouncy scroll effect to TOC
+    let lastScrollY = window.scrollY;
+    let ticking = false;
+
+    function updateTOC() {
+        const toc = document.getElementById("toc-nav");
+        if (!toc) return;
+
+        const scrollY = window.scrollY;
+        const delta = scrollY - lastScrollY;
+
+        // Apply a subtle transform based on scroll direction
+        const translateY = Math.min(Math.max(delta * 0.1, -6), 6);
+        toc.style.transform = `translateY(${translateY}px)`;
+
+        // Reset transform after a short delay
+        setTimeout(() => {
+            if (toc) {
+                toc.style.transform = "translateY(0)";
+            }
+        }, 150);
+
+        lastScrollY = scrollY;
+        ticking = false;
+    }
+
+    function onScroll() {
+        if (!ticking) {
+            window.requestAnimationFrame(updateTOC);
+            ticking = true;
+        }
+    }
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+</script>

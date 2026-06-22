@@ -1,0 +1,24 @@
+<button id="theme-toggle" class="p-2 rounded-md hover:bg-black/5 dark:hover:bg-white/10 transition-colors" aria-label="Toggle theme">
+    <span class="sr-only">Toggle theme</span>
+    <span class="sun hidden dark:block text-lg">☼</span>
+    <span class="moon block dark:hidden text-lg">☾</span>
+</button>
+
+<script>
+    const themeToggle = document.getElementById('theme-toggle');
+
+    const setTheme = (theme: string) => {
+        if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+        localStorage.setItem('theme', theme);
+    };
+
+    // Toggle on click
+    themeToggle?.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.contains('dark');
+        setTheme(isDark ? 'light' : 'dark');
+    });
+</script>

@@ -1,0 +1,16 @@
+<map id="src/lattice/intLattice.h" name="src/lattice/intLattice.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="196,5,358,33"/>
+<area shape="rect" id="Node000002" href="$d4/d58/intLattice_8cpp.html" title=" " alt="" coords="5,81,183,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,42,127,83,125,78,229,37"/>
+<area shape="rect" id="Node000003" href="$d6/d06/ising_8h.html" title=" " alt="" coords="207,81,346,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="279,49,279,81,274,81,274,49"/>
+<area shape="rect" id="Node000006" href="$df/d95/potts_8h.html" title=" " alt="" coords="370,81,511,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="321,37,413,78,411,83,319,42"/>
+<area shape="rect" id="Node000004" href="$de/da5/ising_8cpp.html" title=" " alt="" coords="73,157,227,184"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="242,119,174,159,171,154,240,114"/>
+<area shape="rect" id="Node000005" href="$d2/d93/simulation_8cpp.html" title=" " alt="" coords="251,157,465,184"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="304,117,345,154,342,158,301,121"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="416,121,374,158,371,154,413,117"/>
+<area shape="rect" id="Node000007" href="$da/d6e/potts_8cpp.html" title=" " alt="" coords="489,157,646,184"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="478,114,546,154,544,159,475,119"/>
+</map>

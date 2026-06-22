@@ -1,0 +1,9 @@
+<map id="IntLattice::generate_lattice" name="IntLattice::generate_lattice">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,21,154,66"/>
+<area shape="rect" id="Node000002" href="$df/d24/namespacerng.html#a3b67035fc07dfb2111ac23cfc6e5e53d" title=" " alt="" coords="415,29,509,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,40,399,40,399,46,154,46"/>
+<area shape="rect" id="Node000003" href="$df/d24/namespacerng.html#aef8e730ac100ee05dd77713f9d79a08a" title=" " alt="" coords="202,55,367,82"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="154,50,186,54,186,59,153,55"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="431,30,426,20,430,11,442,5,462,3,483,5,495,12,492,16,482,10,462,8,444,10,434,15,432,20,436,28"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="367,54,399,49,400,55,368,59"/>
+</map>

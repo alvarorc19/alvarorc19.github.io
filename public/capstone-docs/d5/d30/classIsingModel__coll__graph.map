@@ -1,0 +1,7 @@
+<map id="IsingModel" name="IsingModel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="13,157,106,184"/>
+<area shape="rect" id="Node000002" href="$d6/d18/classModel.html" title=" " alt="" coords="5,81,114,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,124,62,156,57,156,57,124"/>
+<area shape="rect" id="Node000003" href="$d0/d49/classModelBase.html" title=" " alt="" coords="13,5,106,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="62,49,62,81,57,81,57,49"/>
+</map>

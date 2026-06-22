@@ -1,0 +1,17 @@
+<map id="XYModel::compute_energy_diff_flip" name="XYModel::compute_energy_diff_flip">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,101,201,146"/>
+<area shape="rect" id="Node000002" href="$dc/d7e/classXYModel.html#a20a124c5cdc08eaf57ea974d68b2069f" title="Given a site lattice index, it randomly changes the spin at that site." alt="" coords="254,11,421,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,98,263,59,265,64,164,103"/>
+<area shape="rect" id="Node000003" href="$df/d24/namespacerng.html#a3b67035fc07dfb2111ac23cfc6e5e53d" title=" " alt="" coords="687,54,782,81"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="201,112,671,70,672,76,201,118"/>
+<area shape="rect" id="Node000005" href="$dc/d7e/classXYModel.html#a7f04a1b5e3d71e496394dbb9ae1b2078" title="Computes the spin term due to neighbouring spins for a given index." alt="" coords="249,131,426,175"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="202,133,234,137,233,143,201,138"/>
+<area shape="rect" id="Node000006" href="$df/d24/namespacerng.html#aef8e730ac100ee05dd77713f9d79a08a" title=" " alt="" coords="474,164,639,192"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="145,144,194,167,249,185,302,193,357,195,458,190,459,195,357,201,302,198,248,190,192,172,143,149"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="421,13,471,6,526,3,584,5,640,14,673,27,702,43,699,47,671,31,639,19,583,10,526,8,472,12,422,18"/>
+<area shape="rect" id="Node000004" href="$df/d24/namespacerng.html#ae673400856a0a3be6ff6d8255e7b704a" title=" " alt="" coords="485,28,628,56"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="421,34,469,36,469,41,421,39"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="704,54,699,45,702,35,715,29,735,27,756,30,767,36,764,41,754,35,734,32,716,34,706,39,704,45,708,52"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="629,50,672,56,671,61,628,55"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="579,162,696,88,699,92,582,166"/>
+</map>

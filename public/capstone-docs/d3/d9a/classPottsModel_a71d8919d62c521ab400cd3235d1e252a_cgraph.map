@@ -1,0 +1,9 @@
+<map id="PottsModel::compute_total_energy" name="PottsModel::compute_total_energy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,40,165,85"/>
+<area shape="rect" id="Node000002" href="$d3/d9a/classPottsModel.html#affaa2237fe4c8f3d1204ea97cbf9a6ee" title=" " alt="" coords="218,5,380,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,47,203,41,203,46,165,52"/>
+<area shape="rect" id="Node000003" href="$d3/d9a/classPottsModel.html#a401f81cb451bf85dee07d3535ba7e6af" title="Computes the spin term due to neighbouring spins for a given index." alt="" coords="213,75,385,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,73,197,78,197,83,165,78"/>
+<area shape="rect" id="Node000004" href="$d3/d9a/classPottsModel.html#af8bc7575d64d56bfaeefd19ef4d96a6c" title=" " alt="" coords="433,83,628,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="385,94,417,94,417,100,385,100"/>
+</map>

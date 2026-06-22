@@ -1,0 +1,7 @@
+<map id="IsingModel::compute_spin_neighbours_term" name="IsingModel::compute_spin_neighbours_term">
+<area shape="rect" id="Node000001" title="Computes the spin term due to neighbouring spins for a given index." alt="" coords="211,40,383,85"/>
+<area shape="rect" id="Node000002" href="$dd/d51/classIsingModel.html#a4f3a7377a25b033fbe15f9978e04fdcd" title=" " alt="" coords="5,5,163,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,48,163,43,164,38,195,43"/>
+<area shape="rect" id="Node000003" href="$dd/d51/classIsingModel.html#ae369f2a9151045997860a772c7cdf185" title=" " alt="" coords="5,75,163,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,82,164,87,163,82,195,76"/>
+</map>

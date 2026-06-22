@@ -1,0 +1,5 @@
+<map id="Simulation::do_metropolis_recording_sweep" name="Simulation::do_metropolis_recording_sweep">
+<area shape="rect" id="Node000001" title="Executes a full sweep of Metropolis steps while recording observables." alt="" coords="174,5,366,50"/>
+<area shape="rect" id="Node000002" href="$d1/d7b/classSimulation.html#ae5c367f87c0b5dc9740bc6d00e44e72c" title="It executes the simulation, a full run corresponding to the time steps." alt="" coords="5,14,126,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,30,126,30,126,25,158,25"/>
+</map>

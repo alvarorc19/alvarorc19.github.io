@@ -1,0 +1,8 @@
+<map id="Simulation::do_metropolis_step" name="Simulation::do_metropolis_step">
+<area shape="rect" id="Node000001" title="executes a single Metropolis step" alt="" coords="414,44,641,72"/>
+<area shape="rect" id="Node000002" href="$d1/d7b/classSimulation.html#a19cd67d663c1974b0a2a398dbb1db46a" title="Executes a full sweep of Metropolis steps while recording observables." alt="" coords="174,5,366,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="398,46,366,42,367,36,399,40"/>
+<area shape="rect" id="Node000003" href="$d1/d7b/classSimulation.html#ae5c367f87c0b5dc9740bc6d00e44e72c" title="It executes the simulation, a full run corresponding to the time steps." alt="" coords="5,44,126,72"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="398,64,366,65,174,65,126,64,126,58,174,60,366,60,398,59"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="159,47,127,52,126,47,158,42"/>
+</map>

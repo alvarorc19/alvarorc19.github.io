@@ -1,0 +1,96 @@
+---
+import ThemeToggle from "./ThemeToggle.astro";
+import "katex/dist/katex.min.css";
+---
+
+<header
+    class="flex justify-between items-end border-b-2 border-[var(--accent-color)] pb-2 mb-8"
+>
+    <div class="flex flex-col">
+        <h1 class="text-3xl font-bold tracking-tight">
+            <a
+                href="/"
+                class="hover:text-[var(--accent-color)] transition-colors"
+                >Álvaro</a
+            >
+        </h1>
+        <span class="text-sm italic opacity-80 text-[var(--accent-color)]"
+            >Theoretical Physics Student</span
+        >
+    </div>
+
+    <div class="flex items-center gap-6">
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex flex-row gap-4 text-sm">
+            <a href="#about" class="hover:text-[var(--accent-color)]">About</a>
+            <a href="#projects" class="hover:text-[var(--accent-color)]"
+                >Projects</a
+            >
+            <a
+                href="mailto:alvaroromerocast@gmail.com"
+                class="hover:text-[var(--accent-color)]">Contact</a
+            >
+            <a
+                href="/capstone-docs/index.html"
+                class="hover:text-[var(--accent-color)]">Capstone Docs</a
+            >
+        </nav>
+
+        <!-- Mobile Hamburger Button -->
+        <button
+            id="mobile-menu-button"
+            class="md:hidden flex flex-col gap-1 p-2"
+            aria-label="Toggle menu"
+        >
+            <span class="w-5 h-0.5 bg-[var(--text-color)] transition-all"
+            ></span>
+            <span class="w-5 h-0.5 bg-[var(--text-color)] transition-all"
+            ></span>
+            <span class="w-5 h-0.5 bg-[var(--text-color)] transition-all"
+            ></span>
+        </button>
+
+        <ThemeToggle />
+    </div>
+</header>
+
+<!-- Mobile Navigation Menu -->
+<nav
+    id="mobile-menu"
+    class="md:hidden hidden flex-col gap-4 text-sm pb-4 border-b border-[var(--border-color)] mb-4"
+>
+    <a href="#about" class="hover:text-[var(--accent-color)] transition-colors"
+        >About</a
+    >
+    <a
+        href="#projects"
+        class="hover:text-[var(--accent-color)] transition-colors">Projects</a
+    >
+    <a
+        href="mailto:alvaroromerocast@gmail.com"
+        class="hover:text-[var(--accent-color)] transition-colors">Contact</a
+    >
+
+    <a href="/capstone-docs/index.html" class="hover:text-[var(--accent-color)]"
+        >Capstone Docs</a
+    >
+</nav>
+
+<script>
+    const menuButton = document.getElementById("mobile-menu-button");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuButton?.addEventListener("click", () => {
+        mobileMenu?.classList.toggle("hidden");
+        mobileMenu?.classList.toggle("flex");
+    });
+
+    // Close menu when clicking a link
+    const mobileLinks = mobileMenu?.querySelectorAll("a");
+    mobileLinks?.forEach((link) => {
+        link.addEventListener("click", () => {
+            mobileMenu?.classList.add("hidden");
+            mobileMenu?.classList.remove("flex");
+        });
+    });
+</script>

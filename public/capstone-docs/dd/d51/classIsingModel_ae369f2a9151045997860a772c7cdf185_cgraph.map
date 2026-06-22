@@ -1,0 +1,7 @@
+<map id="IsingModel::compute_total_energy" name="IsingModel::compute_total_energy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,40,163,85"/>
+<area shape="rect" id="Node000002" href="$dd/d51/classIsingModel.html#a5bfd9dbbaab6efb9802e1b07f77f6996" title=" " alt="" coords="216,5,378,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,47,201,41,201,46,163,52"/>
+<area shape="rect" id="Node000003" href="$dd/d51/classIsingModel.html#a48947341df9d44f94ec7323db40a51a1" title="Computes the spin term due to neighbouring spins for a given index." alt="" coords="211,75,383,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,73,195,78,195,83,163,78"/>
+</map>

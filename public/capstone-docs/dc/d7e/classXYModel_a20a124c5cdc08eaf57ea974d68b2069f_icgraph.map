@@ -1,0 +1,5 @@
+<map id="XYModel::change_spin_randomly" name="XYModel::change_spin_randomly">
+<area shape="rect" id="Node000001" title="Given a site lattice index, it randomly changes the spin at that site." alt="" coords="249,5,416,50"/>
+<area shape="rect" id="Node000002" href="$dc/d7e/classXYModel.html#ae681d473222556b217cde844f73c99b8" title=" " alt="" coords="5,5,201,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,30,201,30,201,25,233,25"/>
+</map>

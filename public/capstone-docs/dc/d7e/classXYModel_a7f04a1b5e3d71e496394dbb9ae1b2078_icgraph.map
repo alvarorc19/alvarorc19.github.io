@@ -1,0 +1,7 @@
+<map id="XYModel::compute_spin_neighbours_term" name="XYModel::compute_spin_neighbours_term">
+<area shape="rect" id="Node000001" title="Computes the spin term due to neighbouring spins for a given index." alt="" coords="249,40,426,85"/>
+<area shape="rect" id="Node000002" href="$dc/d7e/classXYModel.html#ae681d473222556b217cde844f73c99b8" title=" " alt="" coords="5,5,201,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,50,201,45,201,39,234,44"/>
+<area shape="rect" id="Node000003" href="$dc/d7e/classXYModel.html#acd95c3cdd1ee13d1996ed5c9dbf9ff06" title=" " alt="" coords="13,75,193,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,80,194,86,193,81,233,75"/>
+</map>

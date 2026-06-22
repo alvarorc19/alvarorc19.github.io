@@ -1,11 +1,215 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import TableOfContents from "../components/TableOfContents.astro";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// Define headings for table of contents
+const headings = [
+	// { depth: 2, slug: "intro", text: "1. Introduction" },
+	{ depth: 2, slug: "about", text: "About Me" },
+	{ depth: 2, slug: "experience", text: "Experience" },
+	{ depth: 2, slug: "projects", text: "Projects" },
+];
 ---
 
 <Layout>
-	<Welcome />
+	<TableOfContents headings={headings} />
+	<!-- Abstract / Intro -->
+	<section id="intro" class="mb-12">
+		<h1 class="text-3xl font-bold mb-4 border-[var(--border-color)] pb-1">
+			Hi, I'm Álvaro!
+		</h1>
+		<p class="text-justify">
+        Incoming Master student in Mathematical and Theoretical Physics at
+        the University of Oxford with
+			experience in computational physics, machine learning, quantitative
+			analysis, and complex systems.
+			<!-- projects (<a
+				href="#projects"
+				class="hover:text-[var(--accent-color)]">Projects</a
+			>). -->
+		</p>
+        <!--		<p class="text-justify">
+			You can find my CV here: <a
+				href="/cv.pdf"
+				class="hover:text-[var(--accent-color)]">CV</a
+			>.
+		</p>
+        --!>
+
+	</section>
+
+	<!-- About Section -->
+	<section id="about" class="mb-12">
+		<h2
+			class="text-xl font-bold mb-4 border-b border-[var(--border-color)] pb-1"
+		>
+			About Me
+		</h2>
+
+		<div class="mb-6">
+			<p class="mb-4 text-justify">
+				I am drawn to rigorous frameworks for understanding complex
+				problems. That interest led me to theoretical physics, where my
+				studies at Trinity College Dublin developed my grounding in
+				mathematical modelling, statistical reasoning, and stochastic
+				methods for describing systems in which structure emerges from
+				complexity.
+			</p>
+			<!-- <p class="mb-4 text-justify">
+            I love building frameworks to solve problems. This lead me to 
+            physics, which I studied intensely in my Bachelor's Degree in Theoretical
+                Physics from Trinity College Dublin. In there, I studied the intricancies
+                of the universe and its whims, developing a taste for the statistical and
+                stochastic way to solve problems, and how order can appear from apparent
+                chaos or complexity.
+			</p> -->
+			<p class="text-justify">
+				My work sits between theoretical physics and computation: building
+				simulations, analysing high-dimensional data, testing numerical
+                models, and using machine learning methods where they are useful. 
+                
+			</p>
+		</div>
+
+		<div class="mb-6">
+			<h3 class="font-bold text-lg mb-2">2.1. Technical Proficiency</h3>
+			<p class="mb-2 italic opacity-90">
+				The following technologies constitute my primary technical
+				stack:
+			</p>
+			<div class="pl-4">
+				<p>
+                <span class="font-semibold">Languages:</span> Python,
+			<a
+				href="https://dreamsongs.com/WorseIsBetter.html"
+				class="hover:text-[var(--accent-color)]"
+				>C++</a
+			>
+
+					HTML, CSS.
+				</p>
+				<p>
+					<span class="font-semibold"
+						>Frameworks &amp; Libraries:</span
+					> NumPy, Matplotlib, Pandas, SymPy, SciPy, Scikit-learn, numba,
+					pytest, HOOMD, Optuna.
+				</p>
+				<p>
+					<span class="font-semibold">Tools &amp; Environment:</span> Git,
+					Docker, MongoDB, Pixi, Visual Studio Code, Vim, Linux, Windows,
+					Nix, ssh.
+				</p>
+				<p>
+					<span class="font-semibold">Languages spoken:</span> Spanish,
+					Catalan, English, German (Basic).
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Experience Section -->
+	<section id="experience" class="mb-12">
+		<h2
+			class="text-xl font-bold mb-4 border-b border-[var(--border-color)] pb-1"
+		>
+			Experience
+		</h2>
+		<div class="flex justify-between gap-4 items-baseline mb-2">
+			<h3 class="font-bold text-lg mb-0">Alpha Options</h3>
+            <span class="text-sm opacity-70 text-right whitespace-nowrap">May 2024-May 2025, May-Sept 2026</span>
+		</div>
+		<p class="mb-4 text-justify">
+			Quantitative analyst in Barcelona. I developed random forest machine
+			learning models for high-frequency market scenarios, focused on index
+            fund options, obtaining alpha from mathematical methods and 
+            technical intricancies.
+		</p>
+		<div class="flex justify-between gap-4 items-baseline mb-2">
+			<h3 class="font-bold text-lg mb-0">DAAD RISE Scholarship at SimTech, University of Stuttgart</h3>
+			<span class="text-sm opacity-70 text-right whitespace-nowrap">May-Aug 2025</span>
+		</div>
+		<p class="mb-4 text-justify">
+        Research intern in the SimTech cluster at the University of Stuttgart,
+            working with Mario Gaimann and Miriam
+            Klopotek on reservoir computing and active-matter simulations. Developed a 
+            framework to test the robustness of active-matter as a source of predicting
+            power in a reservoir computer.
+		</p>
+    </section>
+
+	<section id="experience" class="mb-12">
+		<h2
+			class="text-xl font-bold mb-4 border-b border-[var(--border-color)] pb-1"
+		>
+			Education
+		</h2>
+		<div class="flex justify-between gap-4 items-baseline mb-2">
+			<h3 class="font-bold text-lg mb-0">Trinity College Dublin</h3>
+			<span class="text-sm opacity-70 text-right whitespace-nowrap">2022-2026</span>
+		</div>
+		<p class="mb-4 text-justify">
+			B.A. Hons. Theoretical Physics graduate with a First Class
+			Honours degree. Awarded the Arthur Lyster Prize in 2023 for one of
+            the best first-year results in Mathematics and Theoretical Physics. 
+            Acted as a member of the committee of the 
+			<a
+				href="https://tpsa.ie/student"
+				class="hover:text-[var(--accent-color)]"
+				>Theoretical Physics Student Association</a
+			>
+            
+            and the 
+			<a
+				href="https://trinityswimmingandwaterpolo.clubforce.com/"
+				class="hover:text-[var(--accent-color)]"
+				>Dublin University Swimming Club</a
+			>
+            .
+            <!--, and the 
+                Gold medal for outstanding performance on the degree overall. --!>
+		</p>
+		<div class="flex justify-between gap-4 items-baseline mb-2">
+			<h3 class="font-bold text-lg mb-0">University of Oxford</h3>
+			<span class="text-sm opacity-70 text-right whitespace-nowrap">2026-2027</span>
+		</div>
+		<p class="mb-4 text-justify">
+            MSc in Mathematical and Theoretical Physics.
+		</p>
+	</section>
+
+	<!-- Projects Section -->
+	<section id="projects" class="mb-12">
+		<h2
+			class="text-xl font-bold mb-4 border-b border-[var(--border-color)] pb-1"
+		>
+			Projects
+		</h2>
+		<h3 class="font-bold text-lg mb-2">
+			<a
+				href="/projects/xy-model-lattice/"
+				class="hover:text-[var(--accent-color)]"
+				>Characterising the XY Model on the Lattice</a
+			>
+		</h3>
+		<p class="mb-4 text-justify">
+			This was my final-year capstone project at Trinity College Dublin under
+			Prof. Patrick Fritzsch. I computationally modelled the XY model on 2D
+			and 3D lattices in C++ to extract critical exponents, study finite-size
+			effects, and analyse its phase transition.
+		</p>
+		<h3 class="font-bold text-lg mb-2">
+			<a
+                    href="/projects/reservoir-computing/"
+				class="hover:text-[var(--accent-color)]"
+				>Reservoir Computing with Active Matter</a
+			>
+		</h3>
+		<p class="mb-4 text-justify">
+			Research carried out at the Stuttgart Center for Simulation Science
+			(SimTech) through a DAAD RISE Scholarship. The project studies
+			non-physical delayed-input reservoir computing against physical
+			active-matter response, using Python, HOOMD simulations, and pytest
+			verification.
+		</p>
+	</section>
 </Layout>

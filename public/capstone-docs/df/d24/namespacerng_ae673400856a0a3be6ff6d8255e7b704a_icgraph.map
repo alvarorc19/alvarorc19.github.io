@@ -1,0 +1,7 @@
+<map id="rng::random_angle" name="rng::random_angle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="464,14,607,42"/>
+<area shape="rect" id="Node000002" href="$dc/d7e/classXYModel.html#a20a124c5cdc08eaf57ea974d68b2069f" title="Given a site lattice index, it randomly changes the spin at that site." alt="" coords="249,5,416,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="448,30,416,30,416,25,448,25"/>
+<area shape="rect" id="Node000003" href="$dc/d7e/classXYModel.html#ae681d473222556b217cde844f73c99b8" title=" " alt="" coords="5,5,201,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="233,30,201,30,201,25,233,25"/>
+</map>

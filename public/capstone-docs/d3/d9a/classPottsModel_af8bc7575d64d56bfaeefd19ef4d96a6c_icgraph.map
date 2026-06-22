@@ -1,0 +1,13 @@
+<map id="PottsModel::delta_function" name="PottsModel::delta_function">
+<area shape="rect" id="Node000001" title=" " alt="" coords="433,83,628,111"/>
+<area shape="rect" id="Node000002" href="$d3/d9a/classPottsModel.html#a6109fe1f1e418dd37b3e4dd186abb2e4" title="computes the spin in the magnetic term of the hamiltonian for a given dimension" alt="" coords="218,5,380,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="466,81,375,53,377,48,468,76"/>
+<area shape="rect" id="Node000003" href="$d3/d9a/classPottsModel.html#a401f81cb451bf85dee07d3535ba7e6af" title="Computes the spin term due to neighbouring spins for a given index." alt="" coords="213,75,385,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="418,100,386,100,386,94,418,94"/>
+<area shape="rect" id="Node000006" href="$d3/d9a/classPottsModel.html#a28204ab862437aa03f2f020cfc393d19" title=" " alt="" coords="213,144,385,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="468,118,377,146,375,141,466,113"/>
+<area shape="rect" id="Node000004" href="$d3/d9a/classPottsModel.html#a23dc29c92d4648bf7269ee7f36a33f2b" title=" " alt="" coords="5,40,165,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="197,83,165,78,166,73,198,78"/>
+<area shape="rect" id="Node000005" href="$d3/d9a/classPottsModel.html#a71d8919d62c521ab400cd3235d1e252a" title=" " alt="" coords="5,109,165,154"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="198,116,166,121,165,116,197,111"/>
+</map>

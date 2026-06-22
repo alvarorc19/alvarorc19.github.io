@@ -1,0 +1,9 @@
+<map id="Simulation::do_metropolis_step" name="Simulation::do_metropolis_step">
+<area shape="rect" id="Node000001" title="executes a single Metropolis step" alt="" coords="5,29,233,57"/>
+<area shape="rect" id="Node000002" href="$df/d24/namespacerng.html#a3b67035fc07dfb2111ac23cfc6e5e53d" title=" " alt="" coords="518,29,612,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,40,503,40,503,46,233,46"/>
+<area shape="rect" id="Node000003" href="$df/d24/namespacerng.html#aa9264fa7d60e84904e26d92569917699" title=" " alt="" coords="281,55,470,82"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="233,52,266,55,265,60,233,57"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="532,30,527,20,531,11,544,5,565,3,588,5,600,12,597,16,586,10,565,8,546,10,535,15,532,20,537,27"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="470,53,502,49,503,54,471,58"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="IsingModel::compute_energy_diff_flip" name="IsingModel::compute_energy_diff_flip">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,163,150"/>
+<area shape="rect" id="Node000002" href="$dd/d51/classIsingModel.html#a31ef569db698fc80190307aad402ac66" title="Given a site lattice index, it randomly changes the spin at that site." alt="" coords="223,5,370,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,103,210,60,222,54,224,59,212,65,128,107"/>
+<area shape="rect" id="Node000003" href="$dd/d51/classIsingModel.html#a48947341df9d44f94ec7323db40a51a1" title="Computes the spin term due to neighbouring spins for a given index." alt="" coords="211,75,383,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,114,195,109,195,114,163,119"/>
+<area shape="rect" id="Node000004" href="$df/d24/namespacerng.html#a3b67035fc07dfb2111ac23cfc6e5e53d" title=" " alt="" coords="431,168,525,196"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,136,416,171,415,176,163,141"/>
+<area shape="rect" id="Node000005" href="$df/d24/namespacerng.html#aef8e730ac100ee05dd77713f9d79a08a" title=" " alt="" coords="214,194,380,222"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="146,148,212,173,244,185,242,190,210,178,144,153"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="447,169,442,160,446,150,458,144,478,142,500,144,511,151,509,156,498,149,478,147,460,149,449,154,447,159,451,167"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="379,193,415,188,416,194,380,199"/>
+</map>

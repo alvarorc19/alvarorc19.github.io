@@ -1,0 +1,5 @@
+<map id="PottsModel::compute_spin_magnetic_term" name="PottsModel::compute_spin_magnetic_term">
+<area shape="rect" id="Node000001" title="computes the spin in the magnetic term of the hamiltonian for a given dimension" alt="" coords="5,5,167,50"/>
+<area shape="rect" id="Node000002" href="$d3/d9a/classPottsModel.html#af8bc7575d64d56bfaeefd19ef4d96a6c" title=" " alt="" coords="215,14,410,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,25,199,25,199,30,167,30"/>
+</map>
