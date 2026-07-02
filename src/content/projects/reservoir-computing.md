@@ -1,7 +1,7 @@
 ---
 title: "Reservoir Computing with Active Matter"
 description: "DAAD RISE research project comparing delayed-input reservoir computing with physical active-matter response."
-pubDate: "2025-05-01"
+pubDate: "2026-07-01"
 tags: ["Reservoir Computing", "HOOMD", "Python"]
 ---
 
